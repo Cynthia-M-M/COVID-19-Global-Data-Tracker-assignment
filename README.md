@@ -1,7 +1,5 @@
 # COVID-19 Global Data Tracker
 
-![COVID-19 Global Tracker](https://www.amprogress.org/wp-content/uploads/2020/03/Case-Surveillance-4-1200x800.jpeg)
-
 ## Project Description
 This project, created by **Cynthia M.**, explores global COVID-19 trends using open-source data. It aims to identify key patterns in infection rates, death tolls, and vaccination progress, while also examining how economic and demographic factors influenced the pandemic’s impact across different countries. The analysis combines visualizations and statistics to support data-driven public health strategies.
 
