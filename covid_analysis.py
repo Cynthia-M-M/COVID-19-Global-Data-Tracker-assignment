@@ -63,6 +63,9 @@ plt.show()
 # Group by date and sum total vaccinations
 df_vaccinated = df.groupby('date')['total_vaccinations'].sum().reset_index()
 
+# Drop rows where continent is missing to avoid errors in grouping
+df = df.dropna(subset=['continent'])
+
 # Plotting the vaccination progress over time
 plt.figure(figsize=(10,6))
 plt.plot(df_vaccinated['date'], df_vaccinated['total_vaccinations'], color='green')
